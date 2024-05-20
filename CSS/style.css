@@ -1,0 +1,231 @@
+body {
+    margin-top: 37px; 
+}
+header {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+#equipo {
+    margin-top: 0; 
+    margin-bottom: 50px; 
+}
+
+.container-fluid .row .col {
+    margin-bottom: 30px;
+}
+
+/* CCARRUSEL */
+
+.carousel-item {
+    margin-top: 20px;
+    height: 500px;
+}
+
+.carousel-caption {
+    bottom: 0; 
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.carousel-caption h5 {
+    font-size: 25px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.carousel-caption p {
+    width: auto; 
+    font-size: 14px; 
+    line-height: 1.5;
+}
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* menú de navegación */
+
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: black;
+}
+
+.w-100 {
+    height: calc(100vh - 56px); 
+}
+/* responsive design para pagina inicio*/
+
+@media (max-width: 767px) {
+    .carousel-item {
+        height: calc(50vh - 56px); 
+    }
+    .carousel-caption {
+        bottom: 0; 
+    }
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 12px; 
+    }
+    .carousel-item img {
+    object-position: center; 
+
+    }
+
+}
+
+/* ajustes de inicio de secion*/
+.login-section-padding {
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-label {
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+/* MAS responsive design para pagina inicio*/
+
+
+@media only screen and (max-width: 768px) {
+    .card-body {
+        padding: 20px;
+    }
+}
+
+ /*ajuste del padding supperior */ 
+.contact-section-padding {
+    padding: 150px 0 50px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-section-padding {
+        padding-top: 120px; 
+    }
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 150px;
+
+}
+
+
+#about {
+    margin-top: 20px; 
+    margin-bottom: 50px; 
+}
+#local {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+/* Servicios */
+.card {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .card-text ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .card-text ul li {
+    margin-bottom: 10px;
+  }
+
+  /* mapa */
+  .map-container {
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+    /* DETALLES */
+
+  #main-content {
+    margin-top: 80px;
+    margin-bottom: 250px;
+}
